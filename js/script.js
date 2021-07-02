@@ -1,7 +1,7 @@
 const items = document.querySelectorAll('.countdown-item > h2')
 const countDownEl = document.querySelector('.countdown')
 
-let countDownDate = new Date(2020, 11, 18, 0, 0, 0).getTime()
+let countDownDate = new Date(2023, 11, 18, 0, 0, 0).getTime()
 
 function getCountdownTime() {
   let now = new Date().getTime()
